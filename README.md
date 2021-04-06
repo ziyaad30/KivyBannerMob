@@ -9,7 +9,7 @@ class MyApp(App):
     def __init__(self):
         super().__init__()
         
-        admob = KivyBannerMob('ca-app-pub-7420457689342922~9251120518', True)
+        admob = KivyBannerMob('ca-app-pub-7420457689342922~9251120518', True) # if True, will disregard your APP ID and Banner Ad Unit ID and display the Test Admob Banner Ad
         admob.load_banner_ad('ca-app-pub-7420457689342922/1311445966')
         admob.show_banner()
             
